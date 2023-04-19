@@ -1,0 +1,38 @@
+{
+  "level": "info",
+  "message": "HTTP GET / 304 4ms",
+  "meta": {
+    "req": {
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cache-control": "max-age=0",
+        "connection": "keep-alive",
+        "dnt": "1",
+        "host": "localhost:4000",
+        "if-none-match": "W/\"28-s3zLIZdBgIQ+NBxtS/gOHBi/z/8\"",
+        "sec-ch-ua": "\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+      },
+      "httpVersion": "1.1",
+      "method": "GET",
+      "originalUrl": "/",
+      "query": {},
+      "url": "/"
+    },
+    "res": { "statusCode": 304 },
+    "responseTime": 4
+  },
+  "resource.service.name": "api-service",
+  "span_id": "946436e0da0e78c5",
+  "trace_flags": "01",
+  "trace_id": "34239cf42754e39274fadacf1eebf29a"
+}
