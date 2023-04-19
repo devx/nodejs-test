@@ -1,12 +1,19 @@
 const loging = require("./tracing")("api-service");
 const winston = require("winston");
 const expressWinston = require("express-winston");
+const LogzioWinstonTransport = require("winston-logzio");
 const winstonInstance = winston.createLogger({
   transports: [
     new winston.transports.Console({
       json: true,
       colorize: true,
     }),
+    (logzioWinstonTransport = new LogzioWinstonTransport({
+      level: "info",
+      name: "winston_logzio",
+      token: "VohVSprHkLFjAMJpddtJJNflMgqISgED",
+      host: "listener.logz.io",
+    })),
   ],
 });
 
